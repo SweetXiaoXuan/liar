@@ -1,0 +1,14 @@
+server:
+    tomcat:
+        uri-encoding: UTF-8
+        max-threads: 1000
+        min-spare-threads: 30
+    port: 8119
+    context-path: /
+
+#spring:
+#  datasource:
+#    url : jdbc:mysql://118.190.215.157:3306/hsdata
+#    username : root
+#    password : nYkfxKyCaP0TBpNzDRsIuGQ89UrdHF
+#    driverClassName : com.mysql.jdbc.Driver
